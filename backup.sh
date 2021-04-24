@@ -3,8 +3,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
-echo "Autoscript Mod By Vinstechmy"
-echo ""
+echo "Checking VPS"
 IP=$(wget -qO- icanhazip.com);
 date=$(date +"%Y-%m-%d")
 clear
