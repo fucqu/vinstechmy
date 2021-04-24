@@ -43,7 +43,7 @@ Group Support Horass ( From Telegram ) For Helping / Giving Solution In Creating
 >apt update && apt upgrade -y && update-grub && sleep 2 && reboot
 
 <b> Ubuntu 18.04 & Debian 10 Buster </b>
-> sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1 && sudo apt update && sudo apt install -y bzip2 gzip coreutils screen curl && sudo wget https://raw.githubusercontent.com/obitofaiz/vinstechmy/main/setup.sh && sudo chmod +x setup.sh && sudo screen -S setup ./setup.sh
+> sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/obitofaiz/vinstechmy/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh
 
 ## 🔱 PREMIUM LIFETIME AUTOSCRIPT 🔱
 <b>
