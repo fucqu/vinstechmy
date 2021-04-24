@@ -1,0 +1,23 @@
+#!/bin/bash
+
+clear
+echo -e "================================================="
+echo -e "#       	Autoscript Mod By Vinstechmy         #"
+echo -e "#-----------------------------------------------#"
+echo -e "# For Debian 9 & Debian 10 64 bit               #"
+echo -e "# For Ubuntu 18.04 & Ubuntu 20.04 64 bit        #"
+echo -e "# For VPS with KVM and VMWare virtualization    #"
+echo -e "# Build Up By Horasss                           #"
+echo -e "# Modded By Vinstechmy                          #"
+echo -e "#-----------------------------------------------#"
+echo -e "# License To :                                  #"
+echo -e "#-----------------------------------------------#"
+echo -e "# Vinstechmy Premium Autoscript Lifetime        #"
+echo -e "#                                               #"
+echo -e "# Thanks To : Horasss & Wildy-Project           #"
+echo -e "#                                               #"
+echo -e "# T.me/vinstechmy                               #"
+echo -e "#                                               #"
+echo -e "# Wasap.my/601160938070                         #"
+echo -e "#-----------------------------------------------#"
+echo -e "================================================="
