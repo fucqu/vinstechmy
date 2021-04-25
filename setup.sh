@@ -20,20 +20,18 @@ Status=aktif
 # Eksekusi
 read -p "Please insert the license key : " Passwordnya
 
-if [[ $Status == "aktif" ]]; then
-    if [[ $Password == $Passwordnya ]]; then
-		echo -e "${green}Permission Accepted...${NC}"
-		echo ""
-		echo "IP Register ! Thanks For Buying The Autoscript"
-    else
-		echo -e "${red}Permission Denied!${NC}";
-		echo ""
-		echo "Please Contact Admin"
-		echo "Telegram t.me/vinstechmy"
-		echo "WhatsApp wasap.my/601160938070"
-		rm -f setup.sh
-		exit 0
-    fi
+if [ $Password = $Passwordnya ]; then
+echo -e "${green}Permission Accepted...${NC}"
+echo ""
+echo "IP Register ! Thanks For Buying The Autoscript"
+else
+echo -e "${red}Permission Denied!${NC}";
+echo ""
+echo "Please Contact Admin"
+echo "Telegram t.me/vinstechmy"
+echo "WhatsApp wasap.my/601160938070"
+rm -f setup.sh
+exit 0
 fi
 if [ -f "/etc/v2ray/domain" ]; then
 echo "Script Already Installed"
