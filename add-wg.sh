@@ -39,9 +39,9 @@ fi
 	fi
 
 	# Adguard DNS by default
-	CLIENT_DNS_1="176.103.130.130"
+	CLIENT_DNS_1="1.1.1.1"
 
-	CLIENT_DNS_2="176.103.130.131"
+	CLIENT_DNS_2="1.0.0.1"
 	MYIP=$(wget -qO- ifconfig.co);
 	read -p "Expired (days): " masaaktif
 	exp=`date -d "$masaaktif days" +"%Y-%m-%d"`
