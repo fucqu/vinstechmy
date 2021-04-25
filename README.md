@@ -57,7 +57,7 @@ Email    = wadapap.work@gmail.com<br>
 <br>
 
 ## ➕ DONATION ➕
-<b>If you want to help develop this project, you can donate as sincere as possible</b>
+<b>If you want to help develop this project, you can donate to me by paypal</b>
 <br>
 <b>
 ▶ Paypal Email : wadapap.work@gmail.com<br>
