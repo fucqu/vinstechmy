@@ -18,8 +18,8 @@ Password=12994920912909
 Status=aktif
 
 # Eksekusi
-echo -e "${green}Autoscipt Modded By Vinstechmy${NC}
-echo -e ""
+echo "${green}Autoscipt Modded By Vinstechmy${NC}
+echo ""
 read -p "Please insert the license key : " Passwordnya
 
 if [[ $Status == "aktif" ]]; then
