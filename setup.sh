@@ -20,7 +20,7 @@ Status=aktif
 # Eksekusi
 echo "${green}Autoscipt Modded By Vinstechmy${NC}
 echo ""
-read -p "Please put the key : " Passwordnya
+read -p "Please insert the license key : " Passwordnya
 
 if [[ $Status == "aktif" ]]; then
     if [[ $Password == $Passwordnya ]]; then
