@@ -18,7 +18,7 @@ Password=12994920912909
 Status=aktif
 
 # Eksekusi
-read -p "Sila Input Password : " Passwordnya
+read -p "Please insert the license key : " Passwordnya
 
 if [[ $Status == "aktif" ]]; then
     if [[ $Password == $Passwordnya ]]; then
