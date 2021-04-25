@@ -31,10 +31,9 @@ if [[ $Status == "aktif" ]]; then
 		echo "Please Contact Admin"
 		echo "Telegram t.me/vinstechmy"
 		echo "WhatsApp wasap.my/601160938070"
-        exit 1
+		rm -f setup.sh
+		exit 0
     fi
-elif [[ $Status == "" ]]; then
-echo "Not Auth & Skipped"
 fi
 if [ -f "/etc/v2ray/domain" ]; then
 echo "Script Already Installed"
@@ -128,9 +127,9 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Dev/Main                : Horas Siregar"  | tee -a log-install.txt
+echo "   - Dev/Main                : Horass Siregar"  | tee -a log-install.txt
 echo "   - Modded                  : Vinstechmy"  | tee -a log-install.txt
-echo "   - Telegram                : t.me/vinstechmy"  | tee -a log-install.txt
+echo "   - Telegram                : T.me/vinstechmy"  | tee -a log-install.txt
 echo "   - Instagram               : @theobitofaiz"  | tee -a log-install.txt
 echo "   - Whatsapp                : 01160938070"  | tee -a log-install.txt
 echo "   - Facebook                : https://www.facebook.com/wdpspidey" | tee -a log-install.txt
