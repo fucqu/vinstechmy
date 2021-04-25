@@ -13,32 +13,23 @@ NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 # Letak Password Kamu
 Password=12994920912909
-
-# Isi aja aktif kalau mau authkan password
-Status=aktif
-
 # Eksekusi
-echo "${green}Autoscipt Modded By Vinstechmy${NC}
-echo ""
 read -p "Please insert the license key : " Passwordnya
 
-if [[ $Status == "aktif" ]]; then
-    if [[ $Password == $Passwordnya ]]; then
-		echo -e "${green}Permission Accepted...${NC}"
-		echo ""
-		echo "IP Register ! Thanks For Buying The Autoscript"
-		echo ""
-    else
-		echo -e "${red}Permission Denied!${NC}";
-		echo ""
-		echo "Please Contact Admin"
-		echo "Telegram t.me/vinstechmy"
-		echo "WhatsApp wasap.my/601160938070"
-		echo ""
-		exit 1
-    fi
-elif [[ $Status == "" ]]; then
-echo "Not Auth & Skipped"
+if [ $Password = $Passwordnya ]; then
+echo -e "${green}Permission Accepted...${NC}"
+echo ""
+echo "IP Register ! Thanks For Buying The Autoscript"
+echo ""
+else
+echo -e "${red}Permission Denied!${NC}";
+echo ""
+echo "Please Contact Admin"
+echo "Telegram t.me/vinstechmy"
+echo "WhatsApp wasap.my/601160938070"
+echo ""
+rm -f setup.sh
+exit 0
 fi
 if [ -f "/etc/v2ray/domain" ]; then
 echo "Script Already Installed"
