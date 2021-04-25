@@ -11,6 +11,31 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
+# Letak Password Kamu
+Password=12994920912909
+
+# Isi aja aktif kalau mau authkan password
+Status=aktif
+
+# Eksekusi
+read -p "Sila Input Password : " Passwordnya
+
+if [[ $Status == "aktif" ]]; then
+    if [[ $Password == $Passwordnya ]]; then
+		echo -e "${green}Permission Accepted...${NC}"
+		echo ""
+		echo "IP Register ! Thanks For Buying The Autoscript"
+    else
+		echo -e "${red}Permission Denied!${NC}";
+		echo ""
+		echo "Please Contact Admin"
+		echo "Telegram t.me/vinstechmy"
+		echo "WhatsApp wasap.my/601160938070"
+        exit 1
+    fi
+elif [[ $Status == "" ]]; then
+echo "Not Auth & Skipped"
+fi
 if [ -f "/etc/v2ray/domain" ]; then
 echo "Script Already Installed"
 exit 0
@@ -103,9 +128,9 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Dev/Main                : Horass Siregar"  | tee -a log-install.txt
+echo "   - Dev/Main                : Horas Siregar"  | tee -a log-install.txt
 echo "   - Modded                  : Vinstechmy"  | tee -a log-install.txt
-echo "   - Telegram                : T.me/vinstechmy"  | tee -a log-install.txt
+echo "   - Telegram                : t.me/vinstechmy"  | tee -a log-install.txt
 echo "   - Instagram               : @theobitofaiz"  | tee -a log-install.txt
 echo "   - Whatsapp                : 01160938070"  | tee -a log-install.txt
 echo "   - Facebook                : https://www.facebook.com/wdpspidey" | tee -a log-install.txt
