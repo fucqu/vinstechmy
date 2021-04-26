@@ -19,9 +19,9 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-from Vinstechmy
-user wadapap.work@gmail.com
-password syofkjpdwivfoyrh 
+from Vinstechmy-Autobackup
+user vinstechmyproject@gmail.com
+password bzuztcivmoelgqza 
 logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
