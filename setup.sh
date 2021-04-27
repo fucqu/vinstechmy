@@ -129,7 +129,7 @@ echo "   - Telegram                : T.me/vinstechmy"  | tee -a log-install.txt
 echo "   - Instagram               : @theobitofaiz"  | tee -a log-install.txt
 echo "   - Whatsapp                : 01160938070"  | tee -a log-install.txt
 echo "   - Facebook                : https://www.facebook.com/wdpspidey" | tee -a log-install.txt
-echo "-------------------------------Autoscript Mod By Vinstechmy------------------------" | tee -a log-install.txt
+echo "-------------------------------Autoscript Mod By Vinstechmy---------------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
 sleep 15
