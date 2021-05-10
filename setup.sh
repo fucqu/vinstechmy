@@ -9,12 +9,17 @@ if [ "$(systemd-detect-virt)" == "openvz" ]; then
 fi
 red='\e[1;31m'
 green='\e[0;32m'
+purple='\e[0;35m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 # Letak Password Kamu
 Password=12994920912909
 # Eksekusi
-read -p "Please insert the license key : " Passwordnya
+echo -e "${purple}WELCOME TO PREMIUM AUTOSCRIPTS BY VINSTECHMY${NC}"
+echo -e "${purple}TO PURCHASE THE LICENSE KEY PLEASE CONTACT ADMIN${NC}"
+echo -e "${green}TELEGRAM : t.me/vinstechmy${NC}"
+echo ""
+read -p "PLEASE INSERT THE LICENSE KEY : " Passwordnya
 
 if [ $Password = $Passwordnya ]; then
 echo -e "${green}Permission Accepted...${NC}"
