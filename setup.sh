@@ -19,6 +19,10 @@ echo -e "${purple}WELCOME TO PREMIUM AUTOSCRIPTS BY VINSTECHMY${NC}"
 echo -e "${purple}TO PURCHASE THE LICENSE KEY PLEASE CONTACT ADMIN${NC}"
 echo -e "${green}TELEGRAM : t.me/vinstechmy${NC}"
 echo ""
+echo -e "${green}PREMIUM AUTOSCRIPT LICENSE KEY PRICE${NC}"
+echo ""
+echo -e "${purple}LIFETIME SCRIPT & UNLIMITED VPS INSTALLATION : RM85${NC}"
+echo ""
 read -p "PLEASE INSERT THE LICENSE KEY : " Passwordnya
 
 if [ $Password = $Passwordnya ]; then
@@ -128,10 +132,8 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Dev/Main                : Horass Siregar"  | tee -a log-install.txt
-echo "   - Modded                  : Vinstechmy"  | tee -a log-install.txt
-echo "   - Telegram                : T.me/vinstechmy"  | tee -a log-install.txt
-echo "   - Instagram               : @theobitofaiz"  | tee -a log-install.txt
+echo "   - Dev/Main                : Vinstechmy"  | tee -a log-install.txt
+echo "   - Telegram                : t.me/vinstechmy"  | tee -a log-install.txt
 echo "   - Whatsapp                : 01160938070"  | tee -a log-install.txt
 echo "   - Facebook                : https://www.facebook.com/wdpspidey" | tee -a log-install.txt
 echo "-------------------------------Autoscript Mod By Vinstechmy---------------------" | tee -a log-install.txt
@@ -140,4 +142,3 @@ echo " Reboot 15 Sec"
 sleep 15
 rm -f setup.sh
 reboot
-
