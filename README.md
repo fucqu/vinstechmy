@@ -36,7 +36,7 @@ Group Support Horass ( From Telegram ) For Helping / Giving Solution In Creating
 
 ## ❤ Copyright & License ❤
 <b>© Copyright 2021 by Vinstechmy </b> <br>
-<b>Licensed Horas Siregar Autoscripts )</b>
+<b>( Licensed Vinstechmy Autoscripts )</b>
 
 ## ⏩ Installation ⏪
 <b> Update Repo </b>
