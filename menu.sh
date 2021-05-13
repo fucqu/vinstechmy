@@ -3,10 +3,11 @@ clear
 red='\e[1;31m'
 green='\e[0;32m'
 purple='\e[0;35m'
+orange='\e[0;33m'
 NC='\e[0m'
 echo -e ""
-echo -e "Welcome To Premium Autoscripts Mod By Vinstechmy"
-echo -e "This Is Premium Autoscripts Lifetime"
+echo -e "${orange}Welcome To Premium Autoscripts Mod By Vinstechmy${NC}"
+echo -e "${orange}This Is Premium Autoscripts Lifetime${NC}"
 echo -e ""
 echo -e "${purple}================================================================${NC}"
 echo -e "${green}=============================-MENU-=============================${NC}"
@@ -102,7 +103,7 @@ echo -e ""
 echo -e "${purple}================================================================${NC}"
 echo -e "${green}****************************-SYSTEM-****************************${NC}"
 echo -e "${purple}================================================================${NC}"
-echo -e "* add-host     : Add Or Change domain Host For VPS"
+echo -e "* add-host     : Add Or Change Domain Host For VPS"
 echo -e "* change-port  : Change Port Of Some Service"
 echo -e "* autobackup   : Autobackup Data VPS"
 echo -e "* backup       : Backup Data VPS"
