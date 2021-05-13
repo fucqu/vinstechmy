@@ -10,20 +10,23 @@ fi
 red='\e[1;31m'
 green='\e[0;32m'
 purple='\e[0;35m'
+orange='\e[0;33m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 # Letak Password Kamu
 Password=12994920912909
 # Eksekusi
 echo -e "${purple}WELCOME TO PREMIUM AUTOSCRIPTS BY VINSTECHMY${NC}"
+echo -e ""
 echo -e "${purple}TO PURCHASE THE LICENSE KEY PLEASE CONTACT ADMIN${NC}"
+echo -e ""
 echo -e "${green}TELEGRAM : t.me/vinstechmy${NC}"
-echo ""
+echo -e ""
 echo -e "${green}PREMIUM AUTOSCRIPT LICENSE KEY PRICE${NC}"
-echo ""
+echo -e ""
 echo -e "${purple}LIFETIME SCRIPT & UNLIMITED VPS INSTALLATION : RM85${NC}"
-echo ""
-read -p "PLEASE INSERT THE LICENSE KEY : " Passwordnya
+echo -e ""
+read -p "${orange}PLEASE INSERT THE LICENSE KEY : ${NC}" Passwordnya
 
 if [ $Password = $Passwordnya ]; then
 echo -e "${green}Permission Accepted...${NC}"
