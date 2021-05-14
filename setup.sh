@@ -26,7 +26,7 @@ echo -e "${green}PREMIUM AUTOSCRIPT LICENSE KEY PRICE${NC}"
 echo -e ""
 echo -e "${purple}LIFETIME SCRIPT & UNLIMITED VPS INSTALLATION : RM85${NC}"
 echo -e ""
-read -p "${orange}PLEASE INSERT THE LICENSE KEY : ${NC}" Passwordnya
+read -p "PLEASE INSERT THE LICENSE KEY : " Passwordnya
 
 if [ $Password = $Passwordnya ]; then
 echo -e "${green}Permission Accepted...${NC}"
