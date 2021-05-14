@@ -141,7 +141,7 @@ echo "   - Whatsapp                : 01160938070"  | tee -a log-install.txt
 echo "   - Facebook                : https://www.facebook.com/wdpspidey" | tee -a log-install.txt
 echo "-------------------------------Autoscript Mod By Vinstechmy---------------------" | tee -a log-install.txt
 echo ""
-echo " Reboot 15 Sec"
-sleep 15
+echo " Reboot in 5 second"
+sleep 5
 rm -f setup.sh
 reboot
